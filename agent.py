@@ -186,7 +186,12 @@ travel itinerary, not a summary of tool calls.
 def build_agent():
     """Create and return the LangChain agent using Groq."""
 
+    import streamlit as st
+
     api_key = os.getenv("GROQ_API_KEY", "").strip()
+
+    if not api_key:
+        api_key = st.secrets.get("GROQ_API_KEY", "").strip()
 
     if not api_key:
         raise RuntimeError(
