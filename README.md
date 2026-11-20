@@ -99,6 +99,6 @@ The application reads `flights.json`, `hotels.json` and `places.json` from the `
 
 ## 11. References
 - LangChain: https://docs.langchain.com/
-- Streamlit: https://docs.streamlit.io/
+- Streamlit: https://tripmate-ai-travel-planner.streamlit.app/
 - Open-Meteo Forecast API: https://open-meteo.com/en/docs
 - Open-Meteo Geocoding API: https://open-meteo.com/en/docs/geocoding-api
