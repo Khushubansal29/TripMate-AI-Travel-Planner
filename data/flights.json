@@ -1,0 +1,79 @@
+[
+  {
+    "flight_id": "F101",
+    "airline": "IndiGo",
+    "source": "Delhi",
+    "destination": "Goa",
+    "departure": "06:15",
+    "arrival": "08:55",
+    "duration_hours": 2.67,
+    "price": 4800,
+    "stops": 0
+  },
+  {
+    "flight_id": "F102",
+    "airline": "Air India Express",
+    "source": "Delhi",
+    "destination": "Goa",
+    "departure": "11:30",
+    "arrival": "14:20",
+    "duration_hours": 2.83,
+    "price": 5200,
+    "stops": 0
+  },
+  {
+    "flight_id": "F103",
+    "airline": "Akasa Air",
+    "source": "Delhi",
+    "destination": "Goa",
+    "departure": "17:10",
+    "arrival": "20:05",
+    "duration_hours": 2.92,
+    "price": 4500,
+    "stops": 0
+  },
+  {
+    "flight_id": "F104",
+    "airline": "IndiGo",
+    "source": "Mumbai",
+    "destination": "Goa",
+    "departure": "09:00",
+    "arrival": "10:10",
+    "duration_hours": 1.17,
+    "price": 2600,
+    "stops": 0
+  },
+  {
+    "flight_id": "F105",
+    "airline": "Air India",
+    "source": "Bengaluru",
+    "destination": "Goa",
+    "departure": "13:40",
+    "arrival": "15:05",
+    "duration_hours": 1.42,
+    "price": 3100,
+    "stops": 0
+  },
+  {
+    "flight_id": "F106",
+    "airline": "IndiGo",
+    "source": "Delhi",
+    "destination": "Jaipur",
+    "departure": "08:00",
+    "arrival": "09:00",
+    "duration_hours": 1.0,
+    "price": 3200,
+    "stops": 0
+  },
+  {
+    "flight_id": "F107",
+    "airline": "Air India",
+    "source": "Delhi",
+    "destination": "Mumbai",
+    "departure": "07:30",
+    "arrival": "09:45",
+    "duration_hours": 2.25,
+    "price": 4100,
+    "stops": 0
+  }
+]

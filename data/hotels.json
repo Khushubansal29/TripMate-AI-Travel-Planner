@@ -1,0 +1,56 @@
+[
+  {
+    "hotel_id": "H101",
+    "name": "Sea Breeze Stay",
+    "city": "Goa",
+    "price_per_night": 2200,
+    "rating": 4.2,
+    "category": "Budget",
+    "area": "Calangute"
+  },
+  {
+    "hotel_id": "H102",
+    "name": "Palm Grove Resort",
+    "city": "Goa",
+    "price_per_night": 3200,
+    "rating": 4.6,
+    "category": "Resort",
+    "area": "Candolim"
+  },
+  {
+    "hotel_id": "H103",
+    "name": "Coastal Comfort Inn",
+    "city": "Goa",
+    "price_per_night": 1800,
+    "rating": 3.9,
+    "category": "Budget",
+    "area": "Panjim"
+  },
+  {
+    "hotel_id": "H104",
+    "name": "Heritage Bay Hotel",
+    "city": "Goa",
+    "price_per_night": 4100,
+    "rating": 4.8,
+    "category": "Premium",
+    "area": "Old Goa"
+  },
+  {
+    "hotel_id": "H105",
+    "name": "Pink City Residency",
+    "city": "Jaipur",
+    "price_per_night": 2400,
+    "rating": 4.3,
+    "category": "Budget",
+    "area": "MI Road"
+  },
+  {
+    "hotel_id": "H106",
+    "name": "Mumbai Central Suites",
+    "city": "Mumbai",
+    "price_per_night": 3500,
+    "rating": 4.4,
+    "category": "Business",
+    "area": "Mumbai Central"
+  }
+]

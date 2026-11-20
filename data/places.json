@@ -1,0 +1,102 @@
+[
+  {
+    "place_id": "P101",
+    "name": "Baga Beach",
+    "city": "Goa",
+    "type": "Beach",
+    "rating": 4.5,
+    "estimated_cost": 300,
+    "best_time": "Evening",
+    "duration_hours": 2
+  },
+  {
+    "place_id": "P102",
+    "name": "Basilica of Bom Jesus",
+    "city": "Goa",
+    "type": "Heritage",
+    "rating": 4.7,
+    "estimated_cost": 100,
+    "best_time": "Morning",
+    "duration_hours": 1.5
+  },
+  {
+    "place_id": "P103",
+    "name": "Fort Aguada",
+    "city": "Goa",
+    "type": "Sightseeing",
+    "rating": 4.6,
+    "estimated_cost": 100,
+    "best_time": "Morning",
+    "duration_hours": 2
+  },
+  {
+    "place_id": "P104",
+    "name": "Candolim Beach",
+    "city": "Goa",
+    "type": "Beach",
+    "rating": 4.4,
+    "estimated_cost": 200,
+    "best_time": "Evening",
+    "duration_hours": 2
+  },
+  {
+    "place_id": "P105",
+    "name": "Dudhsagar Falls",
+    "city": "Goa",
+    "type": "Adventure",
+    "rating": 4.8,
+    "estimated_cost": 1200,
+    "best_time": "Morning",
+    "duration_hours": 5
+  },
+  {
+    "place_id": "P106",
+    "name": "Fontainhas Latin Quarter",
+    "city": "Goa",
+    "type": "Culture",
+    "rating": 4.5,
+    "estimated_cost": 150,
+    "best_time": "Afternoon",
+    "duration_hours": 2
+  },
+  {
+    "place_id": "P107",
+    "name": "Hawa Mahal",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.8,
+    "estimated_cost": 200,
+    "best_time": "Morning",
+    "duration_hours": 1.5
+  },
+  {
+    "place_id": "P108",
+    "name": "Amber Fort",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.7,
+    "estimated_cost": 500,
+    "best_time": "Morning",
+    "duration_hours": 3
+  },
+  {
+    "place_id": "P109",
+    "name": "City Palace",
+    "city": "Jaipur",
+    "type": "Culture",
+    "rating": 4.5,
+    "estimated_cost": 400,
+    "best_time": "Afternoon",
+    "duration_hours": 2
+  },
+  {
+    "place_id": "P110",
+    "name": "Gateway of India",
+    "city": "Mumbai",
+    "type": "Sightseeing",
+    "rating": 4.6,
+    "estimated_cost": 0,
+    "best_time": "Evening",
+    "duration_hours": 1.5
+  }
+]
