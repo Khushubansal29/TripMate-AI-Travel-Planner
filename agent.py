@@ -6,6 +6,17 @@ from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_groq import ChatGroq
 from tools import ALL_TOOLS
+from langchain.agents.middleware import AgentMiddleware
+
+class DisableParallelToolCallsMiddleware(AgentMiddleware):
+
+    def wrap_model_call(self, request, handler):
+        request.model_settings["parallel_tool_calls"] = False
+        return handler(request)
+
+    async def awrap_model_call(self, request, handler):
+        request.model_settings["parallel_tool_calls"] = False
+        return await handler(request)
 
 # Load environment variables from .env
 load_dotenv()
@@ -57,6 +68,13 @@ MANDATORY TOOL USAGE
 - Show the calculation clearly.
 - Calculate remaining budget correctly.
 - Never claim that the budget is sufficient if it is exceeded.
+
+IMPORTANT TOOL EXECUTION RULE:
+
+- Call strictly ONE tool at a time.
+- Never request multiple tools in parallel.
+- Wait for each tool result before calling the next tool.
+- After collecting all tool results, generate the final itinerary.
 
 ========================
 ITINERARY RULES
@@ -213,7 +231,8 @@ def build_agent():
     agent = create_agent(
         model=llm,
         tools=ALL_TOOLS,
-        system_prompt=SYSTEM_PROMPT
+        system_prompt=SYSTEM_PROMPT,
+        middleware=[DisableParallelToolCallsMiddleware()]
     )
 
     return agent
